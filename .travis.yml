@@ -1,7 +1,5 @@
-language: node_js
-node_js:
-  - '16.10.0'
-
+language: generic
+dist: focal
   notifications: 
   email: 
     recipients:      
