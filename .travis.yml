@@ -11,5 +11,5 @@ script:
   email: 
     recipients:      
     - hamid.mansha@travis-ci.org
-    on_success: change
+    on_success: always
     on_failure: change
