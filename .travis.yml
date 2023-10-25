@@ -1,16 +1,14 @@
 language: generic
-
 arch:
   - amd64
-
 os: linux
-####
+
+notifications:
+  email:
+    recipients:
+      - hamid.mansha@travis-ci.org
+    on_success: always
+    on_failure: always
 
 script:
   - echo "Hello, Travis CI!"
-  notifications: 
-  email: 
-    recipients:      
-    - hamid.mansha@travis-ci.org
-    on_success: always
-    on_failure: always
