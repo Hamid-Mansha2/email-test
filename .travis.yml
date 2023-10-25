@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - '16.10.0'
+
+  notifications: 
+  email: 
+    recipients:      
+    - hamid.mansha@travis-ci.org
+    on_success: change
+    on_failure: change
