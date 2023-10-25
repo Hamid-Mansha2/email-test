@@ -12,4 +12,4 @@ script:
     recipients:      
     - hamid.mansha@travis-ci.org
     on_success: always
-    on_failure: change
+    on_failure: always
