@@ -1,15 +1,16 @@
-language: ruby
-rvm:
-  - 2.7
-  - 3.0
+language: generic
 
-before_script:
-  - gem install bundler
-  - bundle install
-dist: focal
-  notifications: 
-  email: 
-    recipients:      
-    - hamid.mansha@travis-ci.org
-    on_success: change
-    on_failure: change
+arch:
+  - amd64
+  - arm64
+
+os: linux
+
+script:
+  - echo "Hello, Travis CI!"
+  # notifications: 
+  # email: 
+  #   recipients:      
+  #   - hamid.mansha@travis-ci.org
+  #   on_success: change
+  #   on_failure: change
