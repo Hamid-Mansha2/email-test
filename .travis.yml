@@ -2,15 +2,14 @@ language: generic
 
 arch:
   - amd64
-  - arm64
 
 os: linux
 
 script:
   - echo "Hello, Travis CI!"
-  # notifications: 
-  # email: 
-  #   recipients:      
-  #   - hamid.mansha@travis-ci.org
-  #   on_success: change
-  #   on_failure: change
+  notifications: 
+  email: 
+    recipients:      
+    - hamid.mansha@travis-ci.org
+    on_success: change
+    on_failure: change
